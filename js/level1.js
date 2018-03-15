@@ -39,8 +39,8 @@
 
 // TODO: Now try to create an alert with any phrase you like.
 
-
-
+// alert('Hello girls!!!');
+// alert('Second Message');
 
 
 // TODO: After the alert works for you, comment it out (put '//' on the line where
@@ -50,7 +50,8 @@
 // TODO: Shall we try to console.log the message to the browser?
 // Send any message you like.
 
-
+// console.log('Hello World!');
+// console.log('Second Message');
 
 
 
@@ -85,8 +86,8 @@
 
 // TODO: Now create two empty variables named numberOne and numberTwo.
 
-
-
+  // var numberOne;
+  // var numberTwo;
 
 /*
     You also can use your variables to represent information that they have inside.
@@ -102,6 +103,10 @@
 // TODO: Create 2 variables, 1 with your name and the 2nd with your age and display
 // them with an alert pop-up box.
 
+  // var name = 'Keith Chong';
+  // var age = 2;
+  //
+  // console.log(name + ' is ' + age + 'years old.');
 
 
 
@@ -136,9 +141,9 @@
 // 1st variable multiplied by the 2nd variable. And in the end display the
 // value of multipleOfNumbers.
 
-
-
-
+  var ten = 10;
+  var three = 3;
+  var multipleOfNumbers = ten * three;
 
 /*
     Functions
@@ -175,9 +180,11 @@
 // Step 3 - Call the function passing numbers 2 and 3 as arguments.
 // - To see the result you can console.log it.
 
-
-
-
+  // function add(num1, num2){
+  //   return num1 + num2;
+  // }
+  //
+  // console.log(add(1, 2));
 
 
 // TODO: Great, you made it! Now let's do another function named 'subtract' and
@@ -187,6 +194,19 @@
 // PS: Do you know that instead of numbers you can create variables that store
 // those numbers and pass them as an arguments to your function? Try it out!
 
+
+function subtract(num1, num2){
+  return num1 - num2;
+}
+
+// console.log(subtract(5, 1));
+
+  // var x = 5;
+  // var y = 1;
+  //
+  // answer = subtract(x, y)
+  //
+  // console.log(answer);
 
 
 
