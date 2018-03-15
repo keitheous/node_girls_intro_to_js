@@ -1,5 +1,5 @@
 // Level 3
-
+  console.log('level 3');
 /*
     Introduction
     ============
@@ -115,14 +115,10 @@
 // variable named ourTitle.
 // console.log it and see what you get!
 
+  console.log(document.querySelector('#ourTitle').text);
 
-
-
-
-
-
-
-
+  // self test
+  document.querySelector('#ourTitle').innerHTML = 'KEITH!'
 
 /*
     Getting Similar Elements
@@ -141,21 +137,18 @@
 
 // TODO: Get all <li> elements from the page in a variable named mediaLinks.
 
-
-
+  console.log(document.querySelectorAll('li'));
 
 // TODO: Now console.log mediaLinks.length
 
-
+  console.log(document.querySelectorAll('li').length);
 
 
 // TODO: Do you remember loops from level 2? Using this knowledge, iterate
 // through each mediaLinks item and console.log it.
 
-
-
-
-
+  // lets ask for help here.
+  // console.log(document.querySelectorAll('li > span')[1].text);
 
 
 
