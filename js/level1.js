@@ -180,9 +180,9 @@
 // Step 3 - Call the function passing numbers 2 and 3 as arguments.
 // - To see the result you can console.log it.
 
-  // function add(num1, num2){
-  //   return num1 + num2;
-  // }
+  function add(num1, num2){
+    return num1 + num2;
+  }
   //
   // console.log(add(1, 2));
 
@@ -207,10 +207,6 @@ function subtract(num1, num2){
   // answer = subtract(x, y)
   //
   // console.log(answer);
-
-
-
-
 
 
 
@@ -268,24 +264,14 @@ function subtract(num1, num2){
 //
 // Don't forget to console.log it to see the result.
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+  //
+  // var operator = '-'
+  //
+  // if (operator == '+'){
+  //   console.log(add(10,10));
+  // } else {
+  //   console.log(subtract(10,10));
+  // }
 
 
 /*
@@ -314,12 +300,27 @@ function subtract(num1, num2){
 // function, else console.log - "Sorry, we don't know this operator".
 
 
+var operator = 'divide'
 
+function multiply(num1, num2){
+  return num1 * num2;
+}
 
+function divide(num1, num2){
+  return num1 / num2;
+}
 
-
-
-
+if (operator == 'plus'){
+  console.log(add(10,10));
+} else if (operator == 'minus'){
+  console.log(subtract(10,10));
+} else if (operator == 'multiply'){
+  console.log(multiply(10,10));
+} else if (operator == 'divide'){
+  console.log(divide(10,10));
+} else {
+  console.log("Sorry, we don't know this operator.")
+}
 
 
 
