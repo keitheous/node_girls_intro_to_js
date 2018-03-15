@@ -1,5 +1,5 @@
 // Level2
-
+  console.log('Level 2');
 /*
     Introduction
     ============
@@ -42,8 +42,7 @@
 // TODO: Create your own array, named favouriteFood, and write in a couple of
 // things you like.
 
-
-
+  var favouriteFood = ['laksa', 'nasi lemak'];
 
 
 /*
@@ -61,10 +60,7 @@
 // TODO: Check how many values you have in your array favouriteFood.
 // console.log the result.
 
-
-
-
-
+  console.log(favouriteFood.length);
 
 /*
     Array Usage
@@ -87,8 +83,10 @@
 
 // TODO: Get third element from your array favouriteFood and console.log it.
 
+  favouriteFood[2] = 'Cendol'
+  console.log(favouriteFood);
 
-
+  console.log(favouriteFood[2]);
 
 
 
@@ -115,10 +113,8 @@
 // console.log the whole array to check.
 // Don't forget, index positions start from 0!
 
-
-
-
-
+  favouriteFood[1] = 'Super Cendol'
+  console.log(favouriteFood);
 
 
 /*
@@ -140,10 +136,8 @@
 // console.log list your favouriteFood and check it.
 
 
-
-
-
-
+favouriteFood.push('Super Duper Cendol')
+console.log(favouriteFood);
 
 
 /*
@@ -197,8 +191,12 @@
 // ten to one.
 
 
+  var counter = 10;
 
-
+  while (counter > 0 ){
+    console.log(counter);
+    counter--;
+  }
 
 
 
@@ -220,10 +218,11 @@
 
 // TODO: Log every 3rd number from three to 22 using a 'for loop'.
 
-
-
-
-
+  for(i = 3; i <= 22 ; i++){
+    if (i % 3 == 0){
+      console.log(i);
+    }
+  }
 
 
 /*
@@ -248,14 +247,9 @@
 
 // TODO: Try it out with your favouriteFood array.
 
-
-
-
-
-
-
-
-
+for(var i = 0; i < favouriteFood.length; i++){
+    console.log('I love ' + favouriteFood[i]);
+}
 
 
 /*
@@ -295,19 +289,18 @@
 // 16 % 4 = 0 — in 16 we have 4*4
 // 19 % 4 = 3 — in 19 we have 4*4 + 3 etc
 
-
-
-
-
-
-
-
-
-
-
-
-
-
+  console.log('fizzbuzz');
+  for (i = 0; i <= 50 ; i++){
+    if (i % 5 == 0 && i % 3 == 0){
+      console.log('FizzBuzz');
+    } else if (i % 5 == 0){
+      console.log('Buzz');
+    } else if (i % 3 == 0){
+      console.log('Fizz');
+    } else {
+      console.log(i);
+    }
+  }
 
 ////////////////////////////////////////////////////////////////////////////
 // Congratulations! You have finished Part 2 of JavaScript Basics!        //
